@@ -1,0 +1,35 @@
+header div, footer div{
+    width: 500px;
+    text-align: center;
+    border: 1px black;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+
+  footer div span{
+    font-style: italic;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center;
+    margin: auto;
+}
+
+div.flex-container {
+  width: 500px;
+  height: 500px;
+}
+
+div.flex-container button{
+    width: 165px;
+    height: 165px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 50px;
+}
